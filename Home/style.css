@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+* {
+    color: #ffffff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(35, 35, 35);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    height: 15%;
+    /* float: down?; */
+    position: fixed;
+    bottom: 0;
+}
+
+.player {
+    height: 55%;
+    background-color: red;
+}
+
+.navigation {
+    height: 45%;
+    background-color: aqua;
+}
+
+li {
+    display: inline;
+    text-align: center;
 }
