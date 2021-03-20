@@ -5,21 +5,17 @@
 body {
     width: 100vw;
     height: 100vh;
-    /* background-color: rgb(35, 35, 35); */
-    /* background-image: linear-gradient(to bottom right, blue 1%, rgb(34, 34, 34)); */
     background-image: linear-gradient(-20deg, rgb(34, 34, 34) 80%, rgb(65, 0, 216));
-
-
 }
-
-/* .recomendations {  
-    padding: 20px;
-} */
-
-.recomendations h3 {
+main {
+    width: 100%;
+    height: 100%;
+}
+h3 {
     margin: 20px;
 }
 
+/*////////////////// RECOMENDADOS ////////////////////*/
 .recomendations-menu {
     display: flex;
     flex-wrap: wrap;
@@ -50,12 +46,51 @@ body {
     margin-left: 10px;
     line-height: 40px;
 }
+/* //////////////////////////////////////////////////////// */
 
-main {
-    width: 100%;
-    height: 100%;
+
+/* ///////////////// CONTENT CONTAINER //////////////////// */
+.container {
+    height: 100px;
 }
 
+.container-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content span {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content button {
+    background-image: url("https://picsum.photos/90");
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.artist button {
+    border-radius: 100%;
+    background-color: green;
+}
+
+.album button {
+    background-color: white;
+}
+/* //////////////////////////////////////////////////////// */
+
+
+/* ////////////////////// RODAPE ////////////////////////// */
 footer {
     background-color: rgb(50, 50, 50);
     width: 100%;
@@ -81,3 +116,4 @@ footer {
 .navbt {
     display: inline;
 }
+/* //////////////////////////////////////////////////////// */
