@@ -202,14 +202,14 @@ footer {
     background-repeat: no-repeat;
 }
 .homebutton button {
-    background-image: url(imgs/navigation/home.png);
+    background-image: url(../imgs/navigation/home.png);
 }
 
 .searchbutton button {
-    background-image: url(imgs/navigation/search.png);
+    background-image: url(../imgs/navigation/search.png);
 }
 
 .librarybutton button {
-    background-image: url(imgs/navigation/library.png);
+    background-image: url(../imgs/navigation/library.png);
 }
 /* //////////////////////////////////////////////////////// */

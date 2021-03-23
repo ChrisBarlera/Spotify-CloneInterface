@@ -1,0 +1,112 @@
+* {
+    color: white;
+}
+
+header {
+    background-color: rgb(51, 255, 0);
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+footer {
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    bottom: 0;
+}
+
+.player {
+    height: 55%;
+    border-top: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.player img {
+    width: 50px;
+    height: 50px;
+}
+.spans {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.spans .artist-txt {
+    color: rgb(190, 190, 190);
+}
+
+.player-bts {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-bt {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+
+    /* background-color: transparent; */
+    border: 2px solid white;
+}
+
+.liked {
+    background-color: green;
+}
+.disliked {
+    background-color: transparent;
+}
+.pause {
+    background-color: red;
+}
+.play {
+    background-color: green;
+}
+
+.navigation {
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+    /*justify needs fix */
+}
+
+.navbt {
+    font-size: 9px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+.navbt button {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.homebutton button {
+    background-image: url(../imgs/navigation/home.png);
+}
+
+.searchbutton button {
+    background-image: url(../imgs/navigation/search.png);
+}
+
+.librarybutton button {
+    background-image: url(../imgs/navigation/library.png);
+}
