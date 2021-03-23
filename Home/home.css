@@ -13,17 +13,11 @@ main {
 h3 {
     margin: 20px;
 }
-.enabled {
-    background-color: green;
-}
-.disabled {
-    background-color: red;
-}
 /*////////////////// RECOMENDADOS ////////////////////*/
 .rec-topdiv {
     display: flex;
 }
-.config-bt {
+#config-bt {
     width: 20px;
     height: 20px;
     background-color: transparent;
@@ -169,6 +163,19 @@ footer {
 
     /* background-color: transparent; */
     border: 2px solid white;
+}
+
+.liked {
+    background-color: green;
+}
+.disliked {
+    background-color: transparent;
+}
+.pause {
+    background-color: red;
+}
+.play {
+    background-color: green;
 }
 
 .navigation {

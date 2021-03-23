@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpotifyClone</title>
+    <title>Home</title>
     <link rel="stylesheet" href="../reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
     <main>
         <div class="recomendations">
             <div class="rec-topdiv">
                 <h3>Boa tarde</h3>
-                <button class="config-bt"></button>
+                <button id="config-bt"></button>
             </div>
            <div class="recomendations-menu">
                <div class="rec-item">
@@ -200,9 +200,9 @@
                 <span class="artist-txt">ATARASHII GAKKO!</span>
             </div>
             <div class="player-bts">
-                <button class="player-bt connect"></button>
-                <button class="player-bt like disabled" onclick="toggleclick(this)"></button>
-                <button class="player-bt pause disabled" onclick="toggleclick(this)"></button>
+                <button class="player-bt" id="connectBT"></button>
+                <button class="player-bt disliked" id="likeBT"></button>
+                <button class="player-bt pause" id="playpauseBT"></button>
             </div>
         </div>
         <ul class="navigation">
@@ -220,6 +220,6 @@
             </li>
         </ul>
     </footer>
-    <script src="script.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
